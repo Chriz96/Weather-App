@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOXICONS -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Weather App</title>
+    <!-- JS -->
+    <script src="assets/js/script.js" defer></script>
+
+    <!-- Sweet Alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@3/dark.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9/dist/sweetalert2.min.js"></script>
+
+     <!-- Favicon ico -->
+     <!-- <link rel="shortcut icon" type="image/ico" href="assets/img/favicon.ico"/> -->
+</head>
+<body>
+   
+    <div class="card">
+        <h2 class="nameApp">Weather.<span>App</span></h2>
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="Search" autocomplete="off">
+            <button class="buttonSearch"><i class='bx bx-search-alt-2'></i></button>
+        </div>
+        <div class="weather loading">
+            <h2 class="city">Weather in New York</h2>
+            <h1 class="temp">21°C</h1>
+        <div class="flex">
+            <img src="https://openweathermap.org/img/wn/04n@2x.png" alt="" class="icon"/>
+            <div class="description">Cloudy</div>
+        </div>
+            <div class="humidity">Humidity: 60%</div>
+            <div class="wind">Wind speed: 6.2 Km/h</div>
+        </div>
+        
+    </div>
+
+</body>
+</html>
