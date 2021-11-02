@@ -4,6 +4,7 @@
 
 <h3> Project Description 📖 </h3>
 The project consumes 2 Apis, one that delivers the weather data and the other that delivers images based on search words.
+<br>
 When making a query about the current weather in a city, the following will be done:
 
 * The background-image will be changed for an image related to the consulted city.
@@ -22,10 +23,13 @@ No pre-requisite, you just have to download the code.
  * **JavaScript.**
  * **CSS3.**
  * **HTML5.**
+ * **SweetAlerts.**
+ * **BoxIcons.**
 
 <h3> Observations 🔎</h3>
 
 * The **Api-Key** that is currently there to demonstrate the operation of the project in the future could be disabled.
+* If you use a browser extension that allows you to use "dark" mode, it may be that the "background-image" is not shown in the searches. This happened to me with "Night Eye" (Opera).
 
 <h3> Live-Demo 🔴</h3>
 <a href="https://weatherapp-with-api.netlify.app"> Weather-App </a>
