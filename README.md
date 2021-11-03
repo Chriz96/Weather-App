@@ -14,7 +14,10 @@ When making a query about the current weather in a city, the following will be d
 <h3> Pre-requisites 📋 </h3>
 <ul>
   <li>
-No pre-requisite, you just have to download the code.
+	Visit the <a href="https://openweathermap.org/api"> openweathermap </a> page and get your Api-Key.
+  </li>
+  <li>
+	Once you have the Api-Key go to ../assets/js and open script file. Then put your Api-Key on the line 2.
   </li>
  </ul>
  
